@@ -17,7 +17,7 @@ const ResultCard = ({
             className="rounded-full mb-6 h-32 w-32 sm:h-40 sm:w-40 md:h-48 md:w-48"
           />
           <h1 className="text-xl sm:text-2xl font-bold text-green-600 mb-4">
-            Score: {c+1}
+            Score: {c}
           </h1>
           <button
             onClick={onRetry}
