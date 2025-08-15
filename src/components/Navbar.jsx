@@ -11,7 +11,7 @@ const Navbar = ({ c, e }) => {
       </div>
 
       <div className="flex flex-row space-x-3">
-        <h1 className="text-sm md:text-lg text-white">Score: {c+1}</h1>
+        <h1 className="text-sm md:text-lg text-white">Score: {c}</h1>
         <h1 className="text-sm md:text-lg text-white">Top Score: {e}</h1>
       </div>
     </div>
