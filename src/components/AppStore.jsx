@@ -5,7 +5,7 @@ import ResultCard from "./ResultCard";
 
 const AppStore = ({ emojisList }) => {
   const [b, setList] = useState(emojisList);
-  const [c, setAppId] = useState(0);
+  const [c, setAppId] = useState(1);
   const [e, setTop] = useState(0);
 
   const [d, setIdList] = useState([]); // State to track IDs
