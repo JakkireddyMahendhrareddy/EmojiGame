@@ -6,7 +6,7 @@ const ResultCard = ({
 }) => {
   return (
     <>
-      {c === 12 ? (
+      {c === 11 ? (
         <div className="flex flex-col justify-center items-center bg-green-100 p-6 mt-10 w-11/12 sm:w-3/4 md:w-1/2 rounded-lg shadow-lg mx-auto">
           <h1 className="text-2xl sm:text-3xl font-bold text-green-600 mb-4">
             {message}
